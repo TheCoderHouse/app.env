@@ -1,0 +1,11 @@
+clojupyter-master
+clj-install.sh
+Makefile
+done.*
+*.zip
+*.tgz
+*.gz
+Python-*
+node-*
+.ipynb_checkpoints
+*.ipynb
