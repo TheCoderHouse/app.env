@@ -45,6 +45,17 @@ Edit it with vim, nano, joe or and editor of your choice:
 ```
 vim Makefile
 ```
+Change lines like: `APPUSER`, `APPPORT`, `APPGROUP`, `DOMAIN`
+
+For example:
+
+```
+DOMAIN=small-app.com
+APPUSER=coder
+APPGROUP=house
+APPPORT=1234
+```
+
 
 ### Build your environment
 Finally run `make`:
