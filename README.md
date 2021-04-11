@@ -11,17 +11,26 @@ sudo xargs -a debian-packages.txt apt install -y
 
 ## Usage
 
-* Create your project dir, for ex. `/home/user/proj/app1`
-
-* pull this repo into it this way:
+1. Create your project dir, for ex. `app1`:
 
 ```
+mkdir $HOME/proj/app1
+```
+
+2. pull this repo into it this way:
+
+```
+cd $HOME/proj/app1
 git clone git@github.com:TheCoderHouse/app.env.git env
 ```
 
-* cd into newly created directory by typing `cd env`
+3. cd into this newly created directory by typing:
 
-* create your own version of `Makefile` by simply copying contents of `Makefile.sample`
+```
+cd env
+```
+
+4. Create your own version of `Makefile` by simply copying contents of `Makefile.sample`
 
 ```
 cp Makefile.sample Makefile
