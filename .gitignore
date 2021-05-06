@@ -9,3 +9,4 @@ Python-*
 node-*
 .ipynb_checkpoints
 *.ipynb
+.env
